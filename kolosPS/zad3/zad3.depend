@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1653421902 source:d:\kur\kolosps\zad3\main.c
+	<stdio.h>
+	<stdlib.h>
+
