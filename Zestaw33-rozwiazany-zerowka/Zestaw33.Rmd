@@ -1,0 +1,29 @@
+---
+title: "Egzamin (przykładowy) - Programowanie strukturalne - Zestaw 33"
+lang: pl
+output:
+  pdf_document: default
+---
+
+*Zadanie 1: 10 pkt. Zadanie 2: 12 pkt. Zadanie 3: 13 pkt. Zadanie 4: 15 pkt.* 
+
+*Punktacja: 46-50 pkt - bdb(5,0); 41-45 pkt - db+(4,5); 36-40 pkt - db(4,0); 31-35 pkt - dst+(3,5); 26-30 pkt - dst(3,0); 0-25 pkt - ndst (2,0).*  
+
+1. W folderze Debug33 znajduje się projekt z kodem w języku C.
+W pliku main.c w niektórych linijkach są komentarze. 
+Twoim zadaniem jest wpisanie wartości odpowiednich zmiennych po wykonaniu konkretnej linii kodu. Dopisanie nowych linijek i instrukcji poza komentarzami będzie powodowało 0 pkt.
+
+2. Napisz funkcję, której argumentem jest dodatnia liczba całkowita $n$. Funkcja ma zwrócić sumę liczb całkowitych dodatnich mniejszych niż $n$ podzielnych przez 5 lub 7.
+
+3. Stwórz strukturę `Osoba` o trzech polach `imie` (tablica znaków o rozmiarze 20), wiek (`int`), wzrost (`float`). Następnie stwórz funkcję, której argumentami jest tablica struktur `Osoba` oraz rozmiar tablicy. Funkcja ma zwrócić imię osoby, która jest najstarsza. Stwórz przypadek testowy.
+
+4. Napisz funkcję, która przyjmuje jako argument listę bez głowy o elementach typu:
+
+```c
+struct node {
+    float x;
+    struct node * next;
+};
+```
+
+Funkcja zwraca 1 jeśli lista jest nie pusta i składa się tylko z dodatnich elementów oraz 0 w pozostałym wypadku. Stwórz przypadek testowy.
